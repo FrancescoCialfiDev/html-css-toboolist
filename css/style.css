@@ -46,7 +46,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #f6f8f9;
+    background-color: #dadada;
 }
 
 header {
@@ -56,12 +56,12 @@ header {
 
 /** Header **/
 
-header img{
+header img {
     vertical-align: middle;
     padding-left: 10px;
 }
 
-h1{
+h1 {
     vertical-align: middle;
     padding-left: 10px;
     display: inline-block;
@@ -71,27 +71,91 @@ h1{
 
 /** Main **/
 
-/** Buttons **/
-#buttons1{
-    color: white;
-  background-color: #45abe9; 
-  font-size: 15px;
-  border: #45abe9;
-  border-radius: 15px;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 10px;                     ;
+.main-container{
+
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
 }
 
-#buttons2{
+/** Buttons Color **/
+.buttons-blue {
     color: white;
-    background-color: #45abe9; 
+    background-color: #45abe9;
     font-size: 15px;
     border: #45abe9;
     border-radius: 15px;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 10px;                     ;
-  }
+    font-size: 10px;
+}
+
+.buttons-white {
+    color: #f6f8f9;
+    background-color: #45abe9;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    ;
+}
+
+.buttons-purple {
+    color: #f6f8f9;
+    background-color: #9c72e4;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.buttons-green-water {
+    color: #f6f8f9;
+    background-color: #64c0a8;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.buttons-orange {
+    color: #f6f8f9;
+    background-color: #f29e33;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.buttons-pink {
+    color: #f6f8f9;
+    background-color: #d863a0;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.buttons-green-acid {
+    color: #f6f8f9;
+    background-color: #b0c926;
+    border: #f6f8f9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
