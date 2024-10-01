@@ -71,5 +71,27 @@ h1{
 
 /** Main **/
 
+/** Buttons **/
+#buttons1{
+    color: white;
+  background-color: #45abe9; 
+  font-size: 15px;
+  border: #45abe9;
+  border-radius: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;                     ;
+}
 
-
+#buttons2{
+    color: white;
+    background-color: #45abe9; 
+    font-size: 15px;
+    border: #45abe9;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;                     ;
+  }
