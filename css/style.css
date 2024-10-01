@@ -1,0 +1,74 @@
+/** General 
+
+Color
+#45abe9 Blue
+#f29e33 Orange
+#d863a0 Pink
+#b0c926 Green-Acid
+#64c0a8 Green Water
+#64c0a8 Purple
+#f6f8f9 Grey
+
+**/
+
+/** Font Style 
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+**/
+
+/** Reset **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** General **/
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/** Header **/
+
+header {
+    border: 1px solid black;
+    padding: 25px;
+    background-color: white;
+}
+
+.inner-head {
+    display: inline-block;
+    border: 1px solid rgb(255, 5, 5);
+}
+
+header h1 {
+    display: inline-block;
+}
+
+.inner-head img {
+    padding-top: 15px;
+}
+
+.sfondo-grigio {
+    background-color: #f6f8f9;
+}
